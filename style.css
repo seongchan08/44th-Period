@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#game {
+  display: block;
+  background: #000;
+  image-rendering: auto;
+  outline: none;
+  cursor: crosshair;
+}
+
+#wrap {
+  position: relative;
+  background: #000;
+}
+
+#wrap canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  outline: none;
+}
+
+#hud {
+  cursor: crosshair;
+}
